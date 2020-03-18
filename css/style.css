@@ -1,0 +1,33 @@
+body{
+    font-family: 'Bungee', cursive;
+}
+h1{
+    width: 600px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+}
+.pelilauta-inner{
+    width: 600px;
+}
+.pelilauta-inner > div{
+    float: left;
+    width: 90px;
+    height: 90px;
+    background: #CDDC39;
+    margin: 5px;
+    font-size: 12px;
+    position: relative;
+}
+.pelilauta-inner > div > span{
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pelilauta-inner > div .pommi{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
